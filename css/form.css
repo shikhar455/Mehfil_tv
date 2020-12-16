@@ -1,0 +1,109 @@
+.tab-pane{
+	background-color: #fff;
+}
+	/* Set a style for Card */
+		
+	.card {
+			border-radius:5px;
+			background-color:white;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+			padding: 15px;
+		}
+		
+	/* style the container */
+	.container1 {
+				padding: 40px 0 40px 0;
+				width:50%;
+				cursor: pointer;
+				margin-right: auto;
+				margin-left: auto;
+				
+			}
+		
+	.grid-container {
+					display: grid;
+					grid-template-columns: auto auto;
+					display: -ms-flexbox;
+					display: flex;
+					-ms-flex-wrap: wrap;
+					flex-wrap: wrap;
+					margin-right: -15px;
+					margin-left: -15px;
+					padding: 15px;
+				}
+				
+	.grid-item {
+				background-color: rgba(255, 255, 255, 0.8);
+				padding: 5px;
+				flex-basis: 0;
+				-ms-flex-positive: 1;
+				flex-grow: 1;
+				max-width: 100%;
+				position: relative;
+				width: 100%;
+				padding-right: 15px;
+				padding-left: 15px;
+			}
+	
+	.form-input{
+				font-family: "Times New Roman", Times, serif; 
+				display: block;
+				width: 100%;
+				padding: .375rem .75rem;
+				font-size: 16px;
+				border: 1px solid #03A9F4;
+				border-radius: 5px;
+				}
+					
+	textarea.form-input {
+			height: 150px;
+		}
+	
+	.btn1{
+		color:white;
+		background-color: black;
+		display: inline-block;
+		font-weight: 400;
+		text-align: center;
+		border: 1px solid white;
+		padding: .375rem .75rem;
+		font-size: 1rem;
+		line-height: 1.5;
+		border-radius: .25rem;
+		}
+
+	.btn1 a:hover {
+		background: #EA57A3;
+		color: black;
+	}
+
+input[type=search] {
+			width: 30px;
+			height: 40px;
+			background-color: black;
+			border-radius: 4px;
+		  }
+		  
+		  input[type=search]:focus {
+			width: 100%;
+			border-color: violet;
+			background-color: black;
+		  }
+		  
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+	padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #fff;
+}
